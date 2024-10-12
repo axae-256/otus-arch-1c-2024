@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.15">
+	<Item id="91550191-d675-4aad-b474-ecc1b629ea27">
+		<Name>ДенежныеСредства</Name>
+		<Code>208</Code>
+		<Description>Денежные средства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order> 208</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Международный.AccountingFlag.Валютный">true</Flag>
+			<Flag ref="ChartOfAccounts.Международный.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоМеждународные.СтатьиДвиженияДенежныхСредств">
+				<Turnover>true</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+					<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Количественный">true</Flag>
+					<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Валютный">true</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+		<ChildItems>
+			<Item id="2d2b40b0-c821-4b3d-8593-aeee72ef309d">
+				<Name>СчетаВБанках</Name>
+				<Code>2082</Code>
+				<Description>Счета в банках</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>  2082</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Международный.AccountingFlag.Валютный">true</Flag>
+					<Flag ref="ChartOfAccounts.Международный.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоМеждународные.БанковскиеСчета">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Количественный">true</Flag>
+							<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Валютный">true</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоМеждународные.СтатьиДвиженияДенежныхСредств">
+						<Turnover>true</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Количественный">true</Flag>
+							<Flag ref="ChartOfAccounts.Международный.ExtDimensionAccountingFlag.Валютный">true</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+				</ExtDimensionTypes>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

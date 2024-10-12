@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExchangePlanContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Item>
+		<Metadata>Catalog.Клиенты</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Sequence.ПоследовательностьБанковскихОпераций</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.ОбновлениеСчетаКлиента</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Подразделения</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Кассиры</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.БанковскиеСчета</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Валюты</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Организация</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СтатьиДвиженияДенежныхСредств</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+</ExchangePlanContent>

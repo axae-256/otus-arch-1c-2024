@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.15">
+	<Item id="07f9083c-4ea8-4fcd-a9c8-41df1bc0989f">
+		<Name>ДляТестов1</Name>
+		<Code>000000001</Code>
+		<Description>Для тестов1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ab3fdc8-9b1c-4796-bf15-94798596bf81">
+		<Name>ДляТестов2</Name>
+		<Code>000000002</Code>
+		<Description>Для тестов2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a3a3d60a-5ba5-4326-9912-3e2c74c3875e">
+		<Name>ДляТестов3</Name>
+		<Code>000000003</Code>
+		<Description>Для тестов3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e3aee85-0947-4162-bc86-7e532c1a2101">
+		<Name>ДляТестов4</Name>
+		<Code>000000004</Code>
+		<Description>Для тестов4</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b6c360b-68ab-446c-b672-f17ecf21ae05">
+		<Name>ДляТестов5</Name>
+		<Code>000000005</Code>
+		<Description>Для тестов5</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66c17c9a-de64-4ff1-80bf-36cad7ab3050">
+		<Name>ОсновнаяОрганизация</Name>
+		<Code>000000006</Code>
+		<Description>Основная организация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

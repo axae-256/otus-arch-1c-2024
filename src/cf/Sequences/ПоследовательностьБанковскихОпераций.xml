@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Sequence uuid="14c33d5f-da58-4aad-b71c-0dfca6a434b0">
+		<InternalInfo>
+			<xr:GeneratedType name="SequenceRecord.ПоследовательностьБанковскихОпераций" category="Record">
+				<xr:TypeId>7e2b0004-60b7-47cd-825c-ef94dc899e25</xr:TypeId>
+				<xr:ValueId>f81f9d5d-0f93-46b4-8bbf-7707b285bb3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceManager.ПоследовательностьБанковскихОпераций" category="Manager">
+				<xr:TypeId>b0e43ba4-1f76-42f3-ba13-26cbe89c4402</xr:TypeId>
+				<xr:ValueId>2619efba-609c-4121-9248-b727d47e3dbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceRecordSet.ПоследовательностьБанковскихОпераций" category="RecordSet">
+				<xr:TypeId>078dec99-a703-4cf3-8590-12d13a29d3a1</xr:TypeId>
+				<xr:ValueId>2cd5d70c-aba0-44d8-8c33-43b63e901076</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоследовательностьБанковскихОпераций</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Последовательность банковских операций</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<MoveBoundaryOnPosting>DontMove</MoveBoundaryOnPosting>
+			<Documents>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбновлениеСчетаКлиента</xr:Item>
+			</Documents>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИсторияСчета</xr:Item>
+			</RegisterRecords>
+			<DataLockControlMode>Automatic</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="f95ff91b-9236-4c33-9d73-5ec75b6bf4ec">
+				<Properties>
+					<Name>Организация</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Организация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организация</v8:Type>
+					</Type>
+					<DocumentMap>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОбновлениеСчетаКлиента.Attribute.Организация</xr:Item>
+					</DocumentMap>
+					<RegisterRecordsMap>
+						<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИсторияСчета.Dimension.Организация</xr:Item>
+					</RegisterRecordsMap>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</Sequence>
+</MetaDataObject>

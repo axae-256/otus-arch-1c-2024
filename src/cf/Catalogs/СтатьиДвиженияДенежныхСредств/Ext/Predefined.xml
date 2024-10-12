@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.15">
+	<Item id="e9769fee-8eff-4d66-96b5-a4b44710575e">
+		<Name>ПоступлениеДенежныхСредствНаСчет</Name>
+		<Code>000000001</Code>
+		<Description>Поступление денежных средств на счет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="356c32dc-06f5-4f0d-be20-681dbc7b35a8">
+		<Name>СписаниеДенежныхСредствСоСчета</Name>
+		<Code>000000002</Code>
+		<Description>Списание денежных средств со счета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
